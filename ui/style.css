@@ -1,7 +1,5 @@
 body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+    font-family: sans-serif;    
 }
 
 .center {
@@ -20,3 +18,10 @@ body {
     height: 200px;
 }
 
+style {
+    background-color: yellow;
+    margin-top: 100px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right:10px;
+}
