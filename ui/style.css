@@ -1,27 +1,18 @@
 body {
-    font-family: sans-serif;    
-}
-
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
-style {
-    background-color: yellow;
+  font-family: sans-serif;
+     background-color: lightgrey;
+     margin-top: 75px;
+    
+  }
+  
+  .center {
+      Text-align: Center;
+  }
+  
+ style {
+     background-color: yellow;
+     font-family: sans-serif;
     margin-top: 100px;
-    font-family: sans-serif;
-    margin-left: 10px;
+     margin-left: 10px;
     margin-right:10px;
-}
+ }     
