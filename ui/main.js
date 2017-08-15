@@ -1,5 +1,5 @@
 console.log('Loaded!')
-var elemement = document.getelementbyID ('IMG');
+var img = document.getelementbyID ('IMG');
 IMG.ONCLICK = FUNCTION (); {
-    img.style.marginleft = '100px';
+    var interval = setInterval (moveRight, 100);
 }
