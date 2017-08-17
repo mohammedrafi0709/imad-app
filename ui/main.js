@@ -1,5 +1,5 @@
 
-var button = document.geteEementById ("counter");
+var button = document.getEementById ("counter");
 var counter= 0;
 button.onclick = function (){
     counter = counter + 1;
