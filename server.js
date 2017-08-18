@@ -40,6 +40,6 @@ app.get('/wishes', function (req, res){
 // Use 8080 only for local development if you already have apache running on 80
 
 var port = 80;
-app.listen(8080, function () {
+app.listen(80, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
