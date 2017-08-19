@@ -13,7 +13,7 @@ button.onclick = function (){
   }
 };
 
-var img = document.getElementByID('img');
+var img = document.getElementById('img');
 img.onclick = function () {
     img.set.MarginLeft = '100px';
 }
