@@ -15,7 +15,7 @@ button.onclick = function (){
 
 var img = document.getElementByID('img');
 img.onclick = function () {
-    img.set.MarginLeft = "100px";
+    img.set.MarginLeft = '100px';
 }
 request.open('GET', 'http://http://mohammedrafi0709.imad.hasura-app.io/', true);
 request.send(null);
