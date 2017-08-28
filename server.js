@@ -20,7 +20,7 @@ app.get('/test-db', function (req, res) {
     
     pool.query('SELECT * FROM "User"', function (err, result) {
         if (err) {
-            res.status(500).send(err.toString());
+            res.status(400).send(err.toString());
                 }
                 else {
                     req.send(JSON.stringify(result.rows));
