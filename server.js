@@ -1,6 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
+var app = express();
+app.use(morgan('combined'));
 var Pool = require('pg').Pool;
 var config= {
     user : 'mohammedrafi0709' ,
@@ -10,8 +12,7 @@ var config= {
     password : process.env.DB_PASSWORD
 };
 
-var app = express();
-app.use(morgan('combined'));
+
 
 var pool = new Pool(config);
 
