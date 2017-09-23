@@ -10,7 +10,7 @@ body  {
       Text-align: Center;
   }
   
- P {
+ P, HEAD {
      
      font-family: Comic sans MS;
      color: white;
