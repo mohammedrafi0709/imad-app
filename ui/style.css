@@ -1,4 +1,4 @@
-body  {
+body, HEAD  {
   font-family: comic sans MS;
      background-color: Black;
      COLOR:     wHITE;
@@ -10,7 +10,7 @@ body  {
       Text-align: Center;
   }
   
- P, HEAD {
+ P {
      
      font-family: Comic sans MS;
      color: white;
